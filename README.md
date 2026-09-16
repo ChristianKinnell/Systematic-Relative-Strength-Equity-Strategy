@@ -1,2 +1,22 @@
 # Systematic-Relative-Strength-Equity-Strategy
-Long-only U.S. equity momentum research framework using multi-horizon momentum, relative strength, trend confirmation, inverse-volatility sizing, regime-based exposure control, transaction-cost modelling, signal diagnostics, parameter sensitivity, and walk-forward validation.
+
+Minimal Python research and paper-execution framework for a long-only U.S. equity momentum strategy using:
+
+- liquidity-filtered universe selection
+- volatility-adjusted multi-horizon momentum and benchmark-relative strength
+- trend confirmation before inclusion
+- constrained inverse-volatility position sizing
+- dynamic gross exposure from market regime and portfolio risk
+- transaction-cost aware rebalance planning
+- signal IC, ablations, parameter sensitivity, and walk-forward evaluation
+
+## Files
+
+- `momentum_framework.py` – core strategy, portfolio construction, execution plan, and robustness analytics
+- `tests/test_momentum_framework.py` – focused regression tests for the framework
+
+## Run tests
+
+```bash
+python -m unittest discover -s tests
+```
