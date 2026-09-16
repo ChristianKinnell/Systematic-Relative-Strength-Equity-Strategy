@@ -1,0 +1,15 @@
+{
+  "version": "5.0",
+  "freeze_date": "2026-09-17",
+  "canonical_source": "archive/frozen_v5_monolith.py",
+  "source_sha256": "43ddd61c99977f1495a16c21d006f3fe49019c74c1c2a1ca760e4354db8c4d1c",
+  "prospective_oos_starts_after": "2026-09-17",
+  "note": "Historical results through freeze date are development evidence. Price data snapshot is generated locally and is not bundled here.",
+  "engineering_fixes_after_uploaded_v5": [
+    "removed duplicate transaction-cost subtraction in walk-forward 8f",
+    "aligned benchmark wealth curve with portfolio wealth curve",
+    "made 1-month return use exact 21-return compounding",
+    "updated final version string to v5.0"
+  ],
+  "uploaded_original": "archive/v5_uploaded_original.py"
+}
